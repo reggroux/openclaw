@@ -21,7 +21,7 @@ export function buildMicrosoftFoundryProvider(): ProviderPlugin {
   return {
     id: PROVIDER_ID,
     label: "Microsoft Foundry",
-    docsPath: "/providers/models",
+    docsPath: "/providers/microsoft-foundry",
     envVars: ["AZURE_OPENAI_API_KEY", "AZURE_OPENAI_ENDPOINT"],
     auth: [entraIdAuthMethod, apiKeyAuthMethod],
     onModelSelected: async (ctx) => {

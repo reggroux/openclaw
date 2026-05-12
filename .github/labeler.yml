@@ -4,6 +4,11 @@
           - "extensions/azure-speech/**"
           - "docs/providers/azure-speech.md"
           - "docs/tools/tts.md"
+"plugin: microsoft-foundry":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "extensions/microsoft-foundry/**"
+          - "docs/providers/microsoft-foundry.md"
 "plugin: file-transfer":
   - changed-files:
       - any-glob-to-any-file:
